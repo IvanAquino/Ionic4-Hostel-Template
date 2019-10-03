@@ -1,13 +1,13 @@
 <ion-app>
   <ion-split-pane>
     <ion-menu type="overlay">
-      <ion-header>
-        <ion-toolbar>
-          <ion-title>Menu</ion-title>
+      <ion-header no-border>
+        <ion-toolbar class="bg-gradient">
+          <ion-title class="text-white">Menu</ion-title>
         </ion-toolbar>
       </ion-header>
-      <ion-content>
-        <ion-list>
+      <ion-content class="bg-gradient">
+        <ion-list lines="none" inset="true">
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
             <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">
               <ion-icon slot="start" [name]="p.icon"></ion-icon>

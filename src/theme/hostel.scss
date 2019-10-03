@@ -1,0 +1,50 @@
+.bg-gradient {
+    background: linear-gradient(90deg, rgba(253,189,52,1) 0%, rgba(255,171,9,1) 100%);
+    background-image: linear-gradient(90deg, rgba(253,189,52,1) 0%, rgba(255,171,9,1) 100%);
+    --background: linear-gradient(90deg, rgba(253,189,52,1) 0%, rgba(255,171,9,1) 100%);
+}
+
+.bg-gradient-2 {
+    background: linear-gradient(133deg, rgba(255,255,255,1) 0%, rgba(255,253,243,1) 100%);
+    --background: linear-gradient(133deg, rgba(255,255,255,1) 0%, rgba(255,253,243,1) 100%);
+}
+
+.card-icon {
+    height:  80px;
+    width: 80px;
+    padding: 10px;
+}
+
+.card-margin {
+    margin: 10px 10px;
+}
+
+.center-thumbnail {
+    margin: 0 auto;
+}
+
+.hr {
+    border: 1px solid #CCC;
+    height: 0;
+}
+
+.searchbar-white {
+    --background: white;
+}
+
+.shadow {
+    box-shadow: 0px 2px 18px -4px rgba(105,105,105,0.69);
+}
+
+.text-title {
+    font-size: 16pt;
+    line-height: 1.2em;
+}
+.text-white { color: #FAFAFA; }
+.text-warning { color: rgb(255,171,9); }
+
+.text-8pt { font-size: 8pt; }
+.text-9pt { font-size: 9pt; }
+.text-10pt { font-size: 10pt; }
+.text-11pt { font-size: 11pt; }
+.text-12pt { font-size: 12pt; }
